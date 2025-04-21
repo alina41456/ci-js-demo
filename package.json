@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "test": "node tests/check.js",
+  "lint": "eslint app/*.js tests/*.js"
+
+    "test": "node tests/check.js",
     "lint": "eslint app/*.js tests/*.js"
   },
   "devDependencies": {
